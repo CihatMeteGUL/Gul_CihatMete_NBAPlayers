@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">NBA PLAYERS</string>
+    <string name="player_s_first_name">Player First Name</string>
+    <string name="player_s_last_name">Player Last Name</string>
+    <string name="player_s_position">Player Position</string>
+    <string name="player_s_age">Player Age</string>
+    <string name="has_injured">Has injured?</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_new_player">Add New Player</string>
+    <string name="last_name">Lastname</string>
+    <string name="point_guard">Point Guard</string>
+    <string name="are_you_sure">Are You Sure for Delete This Player?</string>
+    <string name="yes">YES</string>
+    <string name="go_back">Go Back</string>
+    <string name="first_name">Firstname</string>
+    <string name="add_item">Add Item</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cardViews"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    app:cardUseCompatPadding="true">
+
+    <com.google.android.material.circularreveal.CircularRevealRelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/lastname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:text="@string/last_name"
+            android:textSize="22dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/position"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="80dp"
+            android:text="@string/point_guard"
+            android:textSize="16dp"></TextView>
+
+        <TextView
+            android:id="@+id/age"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="125dp"
+            android:layout_marginLeft="125dp"
+            android:layout_marginTop="80dp"
+            android:text="28"
+            android:textSize="16dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/firstname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="40dp"
+            android:text="@string/first_name"
+            android:textSize="16dp"></TextView>
+
+        <ImageView
+            android:id="@+id/edit_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/age"
+            android:layout_alignBottom="@+id/age"
+            android:layout_marginStart="116dp"
+            android:layout_marginTop="-35dp"
+            android:layout_marginBottom="39dp"
+            android:layout_toEndOf="@+id/age"
+            app:srcCompat="@drawable/ic_edit" />
+
+        <ImageView
+            android:id="@+id/delete_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/age"
+            android:layout_alignBottom="@+id/age"
+            android:layout_marginStart="118dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="1dp"
+            android:layout_toEndOf="@+id/age"
+            app:srcCompat="@drawable/ic_delete" />
+
+
+    </com.google.android.material.circularreveal.CircularRevealRelativeLayout>
+
+</androidx.cardview.widget.CardView>
